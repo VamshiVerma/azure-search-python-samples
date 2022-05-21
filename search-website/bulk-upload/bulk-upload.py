@@ -29,8 +29,8 @@ index_name = 'good-books'
 index_schema = './good-books-index.json'
 
 # Books catalog
-books_url = "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/books.csv"
-batch_size = 1000
+books_url = "/Users/vamshi/Documents/Results.csv"
+batch_size = 10
 
 # Instantiate a client
 class CreateClient(object):
