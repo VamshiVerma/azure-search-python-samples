@@ -113,7 +113,7 @@
       },
       {
         "name": "original_publication_year",
-        "type": "Edm.Int64",
+        "type": "Edm.String",
         "facetable": false,
         "filterable": false,
         "retrievable": true,

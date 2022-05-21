@@ -29,7 +29,7 @@ index_name = 'good-books'
 index_schema = './good-books-index.json'
 
 # Books catalog
-books_url = "/Users/vamshi/Documents/Results.csv"
+books_url = "/Users/vamshi/Documents/Results2.csv"
 batch_size = 10
 
 # Instantiate a client
@@ -112,7 +112,7 @@ def batch_upload_json_data_to_index(json_file, client):
             "isbn": str(i['isbn']),
             "isbn13": str(i['isbn13']),
             "authors": i['authors'].split(',') if i['authors'] else None,
-            "original_publication_year": int(i['original_publication_year']) if i['original_publication_year'] else 0,
+            "original_publication_year": str(i['original_publication_year']),
             "original_title": i['original_title'],
             "title": i['title'],
             "language_code": i['language_code'],
