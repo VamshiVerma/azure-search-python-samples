@@ -7,19 +7,13 @@ import "./Facets.css";
 export default function Facets(props) {
 
     function mapFacetName(facetName) {
-        /* const capitalizeFirstLetter = (string) =>
+         const capitalizeFirstLetter = (string) =>
             string[0] ? `${string[0].toUpperCase()}${string.substring(1)}` : '';
         facetName = facetName.trim();
         facetName = capitalizeFirstLetter(facetName);
 
-        facetName = facetName.replace('_', ' '); */
-        if (facetName=="language_code") {
-            return "Functional Area";
-        }
-        else
-        {
-             return "Region";
-        }
+        facetName = facetName.replace('_', ' '); 
+        return facetName;
     }
 
     function addFilter(name, value) {
