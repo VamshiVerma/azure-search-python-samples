@@ -10,6 +10,7 @@ export default function Facets(props) {
          const capitalizeFirstLetter = (string) =>
             string[0] ? `${string[0].toUpperCase()}${string.substring(1)}` : '';
         facetName = facetName.trim();
+        
         facetName = capitalizeFirstLetter(facetName);
 
         facetName = facetName.replace('_', ' '); 
