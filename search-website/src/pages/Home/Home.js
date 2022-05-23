@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main className="main main--home">
       <div className="row home-search">
-        <img className="logo" src="/images/cognitive-search.png" alt="Cognitive Search"></img>
+        <img className="logo" src="https://e7.pngegg.com/pngimages/823/363/png-clipart-hologic-logo-business-business-purple-text-thumbnail.png" alt="Hologic"></img>
         <p className="poweredby lead">Automation Hall of Fame</p>
         <SearchBar postSearchHandler={navigateToSearchPage}></SearchBar>
       </div>
